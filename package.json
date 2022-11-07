@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "encom-globe": "^0.5.4",
     "firebase": "^9.12.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
