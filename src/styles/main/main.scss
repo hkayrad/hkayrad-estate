@@ -1,5 +1,22 @@
+@font-face {
+  font-family: "ddbb_b";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Disposable Droid BB Bold"),
+    url("./fonts/disposabledroid-bb.bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ddbb";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Disposable Droid BB Regular"),
+    url("./fonts/disposabledroid-bb.regular.woff") format("woff");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "ddbb";
 }

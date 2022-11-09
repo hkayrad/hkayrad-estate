@@ -8,13 +8,24 @@ import "./styles/main/main.css";
 
 //* components / routes
 import Home from "./routes/Home";
+import HomePage from "./components/HomePage/HomePage";
+import AboutPage from "./components/AboutPage/AboutPage";
 
 //* routing
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    children: [],
+    children: [
+      {
+        path: "/",
+        element: <HomePage />,
+      },
+      {
+        path: "/about",
+        element: <AboutPage />,
+      },
+    ],
   },
 ]);
 
